@@ -1,6 +1,5 @@
 import Product from "../../../domain/product/entity/product";
 import ProductRepositoryInterface from "../../../domain/product/repository/product-repository.interface";
-import ProductRepository from "../../../infrastructure/product/repository/sequelize/product.repository";
 import { OutputListProductDto } from "./list.product.dto";
 
 export default class ListProductUseCase {
